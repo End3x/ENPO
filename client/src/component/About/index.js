@@ -19,17 +19,17 @@ export default () => {
           profesjonelt nettverk til å samle alle resurser for å støtte og styrke
           den nye radikale reformen i Etiopia som profesjonelle. Dagen 24 juni
           ble valgt tilfeldigvis etter den historisk dagen 23 juni 2018. En
-          historisk dag som ble arrangert fredelig folkemøte i Addis{" "}
+          historisk dag som ble arrangert fredelig folkemøte i Addis Abeba for å
+          vise støtte til den nye reformvennlige Statsministere Dr. Abiy Ahmed.
         </p>
         <p>
-          Abeba for å vise støtte til den nye reformvennlige Statsministere Dr.
-          Abiy Ahmed. Optimismen å fremme Etiopias enhet er et av hoved
-          motivasjonen kilde for å etablere ENPO, men også alle viktigeste var å
-          fremme utvikling og støtte for våre etiopiske søstre og brødre som
-          fortjener internasjonal støtte i tiden fremover uansett hvem som leder
-          landet. Herskerne kommer og går, folk forblir! Allerede i først dagen
-          fem av deltakere ble vi enig om at ENPO skal være ideell non-politisk,
-          og non -religiøs organ. Organisasjonen ble etablert 10 august 2018.
+          Optimismen å fremme Etiopias enhet er et av hoved motivasjonen kilde
+          for å etablere ENPO, men også alle viktigeste var å fremme utvikling
+          og støtte for våre etiopiske søstre og brødre som fortjener
+          internasjonal støtte i tiden fremover uansett hvem som leder landet.
+          Herskerne kommer og går, folk forblir! Allerede i først dagen fem av
+          deltakere ble vi enig om at ENPO skal være ideell non-politisk, og non
+          -religiøs organ. Organisasjonen ble etablert 10 august 2018.
         </p>
         <p>
           ENPO er ideell , non-politisk, og non -religiøs organisasjon som gir

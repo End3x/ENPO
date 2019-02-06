@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
 export default () => {
-
-    return(
-        <div> 
-            <h1 > This is the events page </h1>
-            
-        </div>
-    );
-
-}
+  return (
+    <div className="bg-light   text-dark py-5">
+      <div className="ui container">
+        <h2>This is the events page</h2>
+      </div>
+    </div>
+  );
+};

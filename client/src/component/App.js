@@ -10,6 +10,7 @@ import About from "./About";
 import Events from "./Events";
 import Members from "./Members";
 import Projects from "./Projects";
+import Board from "./Board";
 
 export default () => {
   return (
@@ -24,6 +25,7 @@ export default () => {
           <Route path="/events" render={Events} />
           <Route path="/members" render={Members} />
           <Route path="/projects" render={Projects} />
+          <Route path="/board" render={Board} />
         </div>
       </BrowserRouter>
       <Footer />

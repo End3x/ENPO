@@ -2,8 +2,10 @@ import React from "react";
 
 export default () => {
   return (
-    <div>
-      <h1> This is home page</h1>
+    <div className="bg-light   text-dark py-5">
+      <div className="ui container">
+        <h2>This is the home page</h2>
+      </div>
     </div>
   );
 };

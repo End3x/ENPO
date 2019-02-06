@@ -1,6 +1,7 @@
 import React from "react";
 
 import NavLink from "./NavLink";
+import NavBtn from "./NavBtn";
 
 import "./navbar.css";
 export default () => {
@@ -20,7 +21,7 @@ export default () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
+            <li className="nav-item ">
               <NavLink to="/" lable="Home" />
             </li>
 
@@ -39,7 +40,13 @@ export default () => {
             <li className="nav-item ">
               <NavLink to="/about" lable="About" />
             </li>
+
+            <li className="nav-item ">
+              <NavLink to="/board" lable="Board" />
+            </li>
           </ul>
+
+          <NavBtn to="/signin" lable="Sing in / Sign up" />
         </div>
       </nav>
     </div>

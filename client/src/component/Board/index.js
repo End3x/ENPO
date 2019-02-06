@@ -1,9 +1,18 @@
 import React from "react";
+import MemberCard from "./BoardMembercard";
 
 export default () => {
   return (
-    <div>
-      <h1>This is the board page </h1>
+    <div className="bg-dark text-dark py-5">
+      <div className="ui container">
+        <div className="ui pb-5">
+          <MemberCard name="Abebe Bediye" profession="Computer science" />
+          <MemberCard name="Abebe Bediye" profession="Computer science" />
+          <MemberCard name="Abebe Bediye" profession="Computer science" />
+          <MemberCard name="Abebe Bediye" profession="Computer science" />
+          <MemberCard name="Abebe Bediye" profession="Computer science" />
+        </div>
+      </div>
     </div>
   );
 };
