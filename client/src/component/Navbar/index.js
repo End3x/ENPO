@@ -1,54 +1,26 @@
 import React from "react";
 
 import NavLink from "./NavLink";
-import NavBtn from "./NavBtn";
 
 import "./navbar.css";
 export default () => {
   return (
-    <div className=" bg-primary text-white fixed-top position-sticky">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary container">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item ">
-              <NavLink to="/" lable="Home" />
-            </li>
-
-            <li className="nav-item ">
-              <NavLink to="/events" lable="Events" />
-            </li>
-
-            <li className="nav-item ">
-              <NavLink to="/members" lable="Memebers" />
-            </li>
-
-            <li className="nav-item ">
-              <NavLink to="/projects" lable="Projects" />
-            </li>
-
-            <li className="nav-item ">
-              <NavLink to="/about" lable="About" />
-            </li>
-
-            <li className="nav-item ">
-              <NavLink to="/board" lable="Board" />
-            </li>
-          </ul>
-
-          <NavBtn to="/signin" lable="Sing in / Sign up" />
+    <div className=" bg-dark text-white py-3 fixed-top position-sticky">
+      <div className="ui pointing menu container">
+        <NavLink to="/" lable="Home" />
+        <NavLink to="/events" lable="Events" />
+        <NavLink to="/members" lable="Memebers" />
+        <NavLink to="/projects" lable="Projects" />
+        <NavLink to="/about" lable="About" />
+        <NavLink to="/board" lable="Board" />
+        <div className="right menu">
+          <NavLink
+            className="outline-primary"
+            to="/sign-in"
+            lable="Sing in / Sign up"
+          />
         </div>
-      </nav>
+      </div>
     </div>
   );
 };

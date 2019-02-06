@@ -4,3 +4,13 @@ p {
     line-height: 2.5rem;
 
 }
+
+.position-sticky.fixed-top-2 {
+    top: 20%;
+    position: sticky;
+}
+
+h1 {
+
+    padding: 15% 3% 3% 3%;
+}

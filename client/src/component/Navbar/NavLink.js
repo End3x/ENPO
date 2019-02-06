@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default props => {
   return (
-    <Link className="nav-link" to={props.to}>
+    <Link className="item " to={props.to}>
       {props.lable}
     </Link>
   );

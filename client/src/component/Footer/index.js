@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => {
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-primary text-white py-5">
       <div className="ui container">
         <div className="ui two column very relaxed stackable grid">
           <div className="column">
