@@ -10,14 +10,14 @@ export default () => {
         <NavLink to="/" lable="Home" />
         <NavLink to="/events" lable="Events" />
         <NavLink to="/members" lable="Memebers" />
-        <NavLink to="/projects" lable="Projects" />
+        <NavLink to="/projects/project/0" lable="Partnership & engangement" />
         <NavLink to="/about" lable="About" />
-        <NavLink to="/board" lable="Board" />
+        <NavLink to="/board" lable="Management Team" />
         <div className="right menu">
           <NavLink
             className="outline-primary"
             to="/sign-in"
-            lable="Sing in / Sign up"
+            lable="Sign in / Sign up"
           />
         </div>
       </div>
