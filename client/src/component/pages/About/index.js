@@ -40,14 +40,13 @@ export const About = () => {
           <div id="historie" className="ui divider" />
           <h1>Vår historie</h1>
           <p>
-            ENPO førstemøtet fant sted i Oslo den 24 juni 2018 መደመር.
-            Initiativtakeren Selamawit Jimma tok kontakt med sitt kjente
-            profesjonelt nettverk til å samle alle resurser for å støtte og
-            styrke den nye radikale reformen i Etiopia som profesjonelle. Dagen
-            24 juni ble valgt tilfeldigvis etter den historisk dagen 23 juni
-            2018. En historisk dag som ble arrangert fredelig folkemøte i Addis
-            Abeba for å vise støtte til den nye reformvennlige Statsministere
-            Dr. Abiy Ahmed.
+            ENPO førstemøtet fant sted i Oslo den 24 juni 2018. Initiativtakeren
+            Selamawit Jimma tok kontakt med sitt kjente profesjonelt nettverk
+            til å samle alle resurser for å støtte og styrke den nye radikale
+            reformen i Etiopia som profesjonelle. Dagen 24 juni ble valgt
+            tilfeldigvis etter den historisk dagen 23 juni 2018. En historisk
+            dag som ble arrangert fredelig folkemøte i Addis Abeba for å vise
+            støtte til den nye reformvennlige Statsministere Dr. Abiy Ahmed.
           </p>
           <p>
             Optimismen å fremme Etiopias enhet er et av hoved motivasjonen kilde

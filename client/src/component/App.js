@@ -20,11 +20,11 @@ export default () => {
 
           <Route path="/" exact render={Home} />
           <Route path="/about" render={About} />
-          <Route path="/events" render={Events} />
-          <ProtectedRoute path="/members" render={Members} />
+          {/* <Route path="/events" render={Events} />
+          <ProtectedRoute path="/members" render={Members} /> */}
           <Route path="/projects" render={Projects} />
           <Route path="/board" render={Board} />
-          <Route path="/sign-in" render={SignIn} />
+          {/* <Route path="/sign-in" render={SignIn} /> */}
         </div>
       </Switch>
       <Footer />

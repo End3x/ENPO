@@ -1,6 +1,8 @@
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-
-.nav-link{
-    font-size: 1.5rem;
-    font-weight:bold;
+* {
+  font-size: 1.25rem;
 }

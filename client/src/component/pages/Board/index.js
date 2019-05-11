@@ -8,7 +8,7 @@ export const Board = () => {
         <div className="ui three cards">
           <MemberCard
             name="Selamawit Jimma"
-            orgrole="Managing Team Leader"
+            orgrole="Managment Team Leader"
             image="./img/img_profile/Selam.jpeg"
           />
           <MemberCard
@@ -18,22 +18,22 @@ export const Board = () => {
           />
           <MemberCard
             name="Tensae Teshome Seifu"
-            orgrole="Computer science"
+            orgrole="Member"
             image="./img/img_profile/Tensae.jpg"
           />
           <MemberCard
             name="Abyot Asalefew"
-            orgrole="Computer science"
+            orgrole="Member"
             image="./img/img_profile/Abyot.jpg"
           />
           <MemberCard
             name="Alene Tesfamichael"
-            orgrole="Computer science"
+            orgrole="Member"
             image="./img/img_profile/Alene.jpg"
           />
           <MemberCard
             name="Mirtu Beyene"
-            orgrole="Computer science"
+            orgrole="Member"
             image="./img/img_profile/Mirtu.jpg"
           />
         </div>
